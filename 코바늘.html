@@ -11,40 +11,55 @@
      color:green;
      text-decoration: none;
    }
-   .saw{
-     color:gray;
+   body{
+     margin: 0;
    }
    h1{
-     font-size:300%;
-     text-align: center;text-shadow:2px 2px #0f0f00;
+     font-size:300%;text-align:center;
+     text-shadow:2px 2px #0f0f00;
+     border-bottom:  2px solid grey;
+     padding: 20px;
+     margin:0;
+   }
+   ol{
+     font-size:20px;
+     border-right: 1px solid grey;
+     width: 120px;
+     margin: 0;
+     padding:50px;
+   }
+   #grid{
+     display: grid;
+     grid-template-columns: 250px 1fr;
    }
  </style>
 </head>
 
 <body>
   <h1><a href="index.html">손뜨개</a></h1>
-  <ol><strong>
-      <li><a href="대바늘.html">대바늘</a></li>
-      <li><a href="코바늘.html"class="saw" id="active">코바늘</a></li>
-      <li><a href="아후강.html">아후강바늘</a></li>
-  </strong></ol>
+  <div id="grid">
+    <ol><strong>
+        <li><a href="대바늘.html">대바늘</a></li>
+        <li><a href="코바늘.html"class="saw" id="active">코바늘</a></li>
+        <li><a href="아후강.html">아후강바늘</a></li>
+    </strong></ol>
+  <div>
+    <h2>코바늘 編</h2>
 
-  <h2>코바늘 編</h2>
+    <img src="코바늘1.jpg"width="50%"><br>
 
-  <img src="코바늘1.jpg"width="50%"><br>
+    <a href="http://mjhong.com/110044876962" target="_blank" title="코바늘 기초">
+      코바늘 기호와 뜨는 법</a>
 
-  <a href="http://mjhong.com/110044876962" target="_blank" title="코바늘 기초">
-    코바늘 기호와 뜨는 법</a>
-
-  <p style="margin-top:40px">코바늘 뜨기는<br>
-  한쪽에 갈고리가 있는 바늘로 실에 실을 감아서 만들어지는 편물이다<br>
-  <strong>사슬뜨기, 짧은뜨기, 긴뜨기, 걸어뜨기</strong>를 기본으로 한다<br><br>
-  대바늘편에 비해 탄탄하고 두툼한 편물로 형태의 흐트러짐 현상이 적어서<br>
-  인테리어 소품이나 생활 소품 만들기에 많이 활용된다<br><br>
-  갈고리의 크기에 따라 <strong>모사용 코바늘</strong>과 <strong>레이스 코바늘</strong> 두 종류로 구분한다
-  </p>
-
-
+    <p style="margin-top:40px">코바늘 뜨기는<br>
+    한쪽에 갈고리가 있는 바늘로 실에 실을 감아서 만들어지는 편물이다<br>
+    <strong>사슬뜨기, 짧은뜨기, 긴뜨기, 걸어뜨기</strong>를 기본으로 한다<br><br>
+    대바늘편에 비해 탄탄하고 두툼한 편물로 형태의 흐트러짐 현상이 적어서<br>
+    인테리어 소품이나 생활 소품 만들기에 많이 활용된다<br><br>
+    갈고리의 크기에 따라 <strong>모사용 코바늘</strong>과 <strong>레이스 코바늘</strong> 두 종류로 구분한다
+    </p>
+  </div>
+</div>
   <div id="disqus_thread"></div>
 <script>
 

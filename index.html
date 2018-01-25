@@ -5,43 +5,59 @@
   <title>mj홍의 손뜨개</title>
   <meta charset="utf-8">
     <style>
-    a{
-      color: green;
-      text-decoration:none;
-    }
-    .saw{
-      color: gray;
+    body{
+      margin: 0;
     }
     #active{
       color: red;
     }
+    a{
+      color: green;
+      text-decoration:none;
+    }
     h1{
       font-size:300%;text-align:center;
       text-shadow:2px 2px #0f0f00;
+      border-bottom:  2px solid grey;
+      padding: 20px;
+      margin:0;
     }
-
+    ol{
+      font-size: 20px;
+      border-right: 1px solid grey;
+      width: 120px;
+      margin: 0;
+      padding:50px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
   </style>
 </head>
 
 <body>
   <h1><a href="index.html">손뜨개</a></h1>
+<div id="grid">
   <ol><strong>
       <li><a href="대바늘.html">대바늘</a></li>
       <li><a href="코바늘.html">코바늘</a></li>
       <li><a href="아후강.html">아후강바늘</a></li>
   </strong></ol>
 
-  <a href="http://www.mjhong.com" target="_blank" title="mj홍의 블로그">
-    손 땀이 예쁜 <strong>그녀의 손뜨개</strong></a><br><br>
+  <div>
+    <img src="좌홍.png"width="50%">
+    <br>
+    <a href="http://www.mjhong.com" target="_blank" title="mj홍의 블로그">
+      손 땀이 예쁜 <strong>그녀의 손뜨개</strong></a>
 
-  <img src="좌홍.png"width="50%">
-
-  <h2>손뜨개는?</h2>
-  <p style="margin-top:40px">
-  다양한 모양새의 바늘을 이용하여 실을 엮어 편물을 만들어 내는 것이다<br>
-  바늘의 종류에는 <strong>대바늘, 코바늘, 아후강바늘</strong>이 있다
-  </p>
-
+    <h2>손뜨개는?</h2>
+    <p style="mrgin-top:40px">
+    다양한 모양새의 바늘을 이용하여 실을 엮어 편물을 만들어 내는 것이다<br>
+    바늘의 종류에는 <strong>대바늘, 코바늘, 아후강바늘</strong>이 있다
+    </p>
+  </div>
+</div>
 
   <div id="disqus_thread"></div>
 <script>

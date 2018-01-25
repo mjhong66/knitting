@@ -11,39 +11,55 @@
      color:green;
      text-decoration: none;
    }
-   .saw{
-     color:gray;
+   body{
+     margin: 0;
    }
    h1{
-     font-size:300%;
-     text-align: center;text-shadow:2px 2px #0f0f00;
+     font-size:300%;text-align:center;
+     text-shadow:2px 2px #0f0f00;
+     border-bottom:  2px solid grey;
+     padding: 20px;
+     margin:0;
+   }
+   ol{
+     font-size:20px;
+     border-right: 1px solid grey;
+     width: 120px;
+     margin: 0;
+     padding:50px;
+   }
+   #grid{
+     display: grid;
+     grid-template-columns: 250px 1fr;
    }
  </style>
 </head>
 
 <body>
-  <h1><a href="index.html">손뜨개</a></h1>
-  <ol><strong>
-      <li><a href="대바늘.html">대바늘</a></li>
-      <li><a href="코바늘.html">코바늘</a></li>
-      <li><a href="아후강.html"class="saw" id="active">아후강바늘</a></li>
-  </strong></ol>
+    <h1><a href="index.html">손뜨개</a></h1>
+      <div id="grid">
+        <ol><strong>
+            <li><a href="대바늘.html">대바늘</a></li>
+            <li><a href="코바늘.html">코바늘</a></li>
+            <li><a href="아후강.html"class="saw" id="active">아후강바늘</a></li>
+        </strong></ol>
+        <div>
+          <h2>아후강 編</h2>
 
-  <h2>아후강 編</h2>
+          <img src="아후강.jpg"width="50%"><br>
 
-  <img src="아후강.jpg"width="50%"><br>
+          <a href="http://mjhong.com/110080426743" target="_blank" title="아후강 기초">
+            아후강 뜨기 기호와 뜨는 법</a>
 
-  <a href="http://mjhong.com/110080426743" target="_blank" title="아후강 기초">
-    아후강 뜨기 기호와 뜨는 법</a>
-
-  <p style="margin-top:40px">아후강 뜨기는<br>
-    긴 막대 바늘 끝에 코바늘과 같은 갈고리가 달려 있는 바늘로<br>
-    대바늘 기법(<strong>걸어뜨기</strong>)과 코바늘 기법(<strong>물러뜨기</strong>)이
-    혼용 되어져 탄탄한 직물 느낌의 편물이 만들어진다<br><br>
-    갈고리가 한 쪽에만 있는 <strong>아후강 바늘</strong>과
-    양쪽에 있는 <strong>양면 아후강 바늘</strong> 두 종류가 있다<br>
-  </p>
-
+          <p style="margin-top:40px">아후강 뜨기는<br>
+            긴 막대 바늘 끝에 코바늘과 같은 갈고리가 달려 있는 바늘로<br>
+            대바늘 기법(<strong>걸어뜨기</strong>)과 코바늘 기법(<strong>물러뜨기</strong>)이
+            혼용 되어져 탄탄한 직물 느낌의 편물이 만들어진다<br><br>
+            갈고리가 한 쪽에만 있는 <strong>아후강 바늘</strong>과
+            양쪽에 있는 <strong>양면 아후강 바늘</strong> 두 종류가 있다<br>
+          </p>
+        </div>
+      </div>
 
   <div id="disqus_thread"></div>
 <script>
